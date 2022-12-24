@@ -15,7 +15,7 @@ function printNumbers(numbers) {
 // ANSWER: O(n)
 
 // Q: What is the space complexity?
-// ANSWER: O(n) where n is the size of array
+// ANSWER: O(1) where n is the size of array
 
 
 
@@ -38,7 +38,7 @@ function findFourth(numbers) {
   }
 
 // Q: What is the time complexity of of this solution?
-// ANSWER: O(n)
+// ANSWER: O(1)
 
 // Q: Given an array of numbers, what is the space complexity of this function?
 // ANSWER: O(1)
@@ -58,10 +58,10 @@ function printA() {
     }
 }
 // Q: What is the time complexity of this function?
-// ANSWER:O(n)
+// ANSWER:O(1)
 
 // Q: What is the space complexity of this function?
-// ANSWER:O(n)
+// ANSWER:O(1)
 
 // 4) -------------------------------------------------------
 function printB(number) {
@@ -73,7 +73,7 @@ function printB(number) {
 // ANSWER:O(n)
 
 // Q: What is the space complexity of this function?
-// ANSWER: O(n)
+// ANSWER: O(1)
 
 
 
@@ -89,7 +89,7 @@ function printC(num, arr) {
 // ANSWER: O(n^2)
 
 // Q: What is the space complexity of this function?
-// ANSWER:O(n)
+// ANSWER:O(1)
 
 
 // 6) -------------------------------------------------------
@@ -104,7 +104,7 @@ function nested(numbers) {
 // ANSWER: O(n^2)
 
 // Q: What is the space complexity of this function?
-// ANSWER:O(n)
+// ANSWER:O(1)
 
 
 
@@ -115,10 +115,10 @@ let newNumbersA = numbers.filter((num) => {
   return num < 5
 })
 // Q: What is the time complexity of the filter higher-order function?
-// ANSWER:O(nm)
+// ANSWER:O(n)
 
 // Q: What is the space complexity of the filter higher-order function?
-// ANSWER:O(nm)
+// ANSWER:O(n)
 
 
 // 8) -------------------------------------------------------
@@ -127,10 +127,10 @@ let newNumbersB = numbers.map((num) => {
   return num * 3
 })
 // Q: What is the time complexity of the map higher-order function?
-// ANSWER:O(nm)
+// ANSWER:O(n)
 
 // Q: What is the space complexity of the map higher-order function?
-// ANSWER:O(nm)
+// ANSWER:O(n)
 
 
 
@@ -197,7 +197,7 @@ function arrInception(parentArr) {
     }
   }
   // Q: What is the space complexity of this function?
-  // ANSWER:O(n^2)
+  // ANSWER:O(1)
   
   
 // 14) You are challenged to find the squared value of each number in an array. This is not the best solution, but it is what you come up with anyway...
@@ -289,7 +289,7 @@ function countLettersRoundTwo(str) {
 
 
 // Q: Do these functions have the same space complexity?
-// ANSWER:O(n)
+// ANSWER: yes O(n)
 
 
 // Q: What is the space complexity of each? 
@@ -298,6 +298,6 @@ function countLettersRoundTwo(str) {
 
 
 // Q: Explain how you came to your conclusions about the space complexity of each function. 
-// ANSWER: 
+// ANSWER: Each function is dependent on the size of the string
 //the first func: obj-O(1),str-O(1),arr-O(n),forEach-O(n)=O(n)
 //the second func: strRegex-O(n),obj-O(1),loop-O(n)= O(n)
